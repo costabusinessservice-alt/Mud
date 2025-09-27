@@ -1,6 +1,6 @@
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 
-// Importa as páginas
+// Importando as páginas
 import Home from "./pages/Home.jsx";
 import Services from "./pages/Services.jsx";
 import AboutUs from "./pages/AboutUs.jsx";
@@ -11,12 +11,10 @@ import Contact from "./pages/Contact.jsx";
 import AboutOwner from "./pages/AboutOwner.jsx";
 import FreeQuote from "./pages/FreeQuote.jsx";
 
-import "./App.css";
-
 export default function App() {
   return (
-    <Router>
-      {/* Menu de Navegação */}
+    <div>
+      {/* Navbar */}
       <nav className="p-4 bg-gray-800 text-white flex gap-6">
         <Link to="/">Home</Link>
         <Link to="/services">Services</Link>
@@ -41,6 +39,6 @@ export default function App() {
         <Route path="/owner" element={<AboutOwner />} />
         <Route path="/quote" element={<FreeQuote />} />
       </Routes>
-    </Router>
+    </div>
   );
 }
