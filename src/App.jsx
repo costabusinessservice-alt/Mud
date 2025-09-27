@@ -1,15 +1,13 @@
 import { Routes, Route, Link } from "react-router-dom";
-
-// Importando as páginas
-import Home from "./pages/Home.jsx";
-import Services from "./pages/Services.jsx";
-import AboutUs from "./pages/AboutUs.jsx";
-import ServiceAreas from "./pages/ServiceAreas.jsx";
-import Gallery from "./pages/Gallery.jsx";
-import Reviews from "./pages/Reviews.jsx";
-import Contact from "./pages/Contact.jsx";
-import AboutOwner from "./pages/AboutOwner.jsx";
-import FreeQuote from "./pages/FreeQuote.jsx";
+import Home from "./pages/Home";
+import Services from "./pages/Services";
+import AboutUs from "./pages/AboutUs";
+import ServiceAreas from "./pages/ServiceAreas";
+import Gallery from "./pages/Gallery";
+import Reviews from "./pages/Reviews";
+import Contact from "./pages/Contact";
+import AboutOwner from "./pages/AboutOwner";
+import FreeQuote from "./pages/FreeQuote";
 
 export default function App() {
   return (
