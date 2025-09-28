@@ -11,7 +11,7 @@ import FreeQuote from "./pages/FreeQuote";
 
 export default function App() {
   return (
-    <BrowserRouter basename="/costa-business-project">
+   <BrowserRouter>
       <div>
         {/* Navbar */}
         <nav className="p-4 bg-gray-800 text-white flex gap-6">
