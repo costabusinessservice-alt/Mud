@@ -1,0 +1,28 @@
+[33mf9d862d[m[33m ([m[1;36mHEAD[m[33m, [m[1;31morigin/main[m[33m)[m primeiro commit
+[33mafb470a[m Update Services.jsx
+[33me7955e2[m Update ServiceAreas.jsx
+[33mc7cb42f[m Update Reviews.jsx
+[33m61f14e2[m Update Home.jsx
+[33m26bc664[m Update Gallery.jsx
+[33mdf7e34d[m Update FreeQuote.jsx
+[33m37f4d6b[m Update Contact.jsx
+[33m276b8e7[m Update AboutOwner.jsx
+[33m3d03e0d[m Update AboutUs.jsx
+[33mbf842f2[m Update main.jsx
+[33m5c7f29a[m Delete package-lock.json
+[33ma1d5486[m Update package.json
+[33mb655c2b[m Update package.json
+[33m381bd1d[m Update vite.config.js
+[33m32ac1fe[m Update App.jsx
+[33m00b62e9[m Update App.jsx
+[33mf4d5001[m Update App.jsx
+[33m36145a9[m Update main.jsx
+[33m26dc7f9[m Create 404.html
+[33m385550d[m Update vite.config.js
+[33m5eebb38[m Delete pnpm-lock.yaml
+[33m24de6d6[m Delete .gitinore.txt
+[33m36c02c6[m fix: corrigir imports e exports para resolver tela branca
+[33mc50d82a[m fix: update App.jsx with Navbar and routes
+[33mf7bfb99[m Update App.jsx
+[33m609dfcf[m Adicionei páginas e Navbar, ajustes no package.json
+[33mb8f6560[m chore: first commit
