@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "costa-business-project",
   "version": "1.0.0",
@@ -77,3 +78,6 @@
     "gh-pages": "^6.1.1"
   }
 }
+=======
+{"name":"costa-business-new","version":"1.0.0","private":true,"type":"module","scripts":{"dev":"vite","build":"vite build","preview":"vite preview"},"dependencies":{"@vitejs/plugin-react":"^5.0.4","lucide-react":"^0.460.0","react":"^18.3.1","react-dom":"^18.3.1","react-router-dom":"^6.26.2"},"devDependencies":{"autoprefixer":"^10.4.20","postcss":"^8.4.47","tailwindcss":"^3.4.12","vite":"^5.4.8"}}
+>>>>>>> bade6a07e1a1e79a40e9f6b0d6acf5d2f5e75b77

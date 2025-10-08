@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
 @import "tailwindcss";
 @import "tw-animate-css";
@@ -255,3 +256,21 @@ a:focus {
   animation: trail 4s ease-in-out infinite 2s;
 }
 
+=======
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html, body, #root { height: 100%; }
+
+
+/* Reusable helpers */
+.container-px { @apply px-4 sm:px-6 lg:px-8; }
+.section { @apply container-px max-w-6xl mx-auto py-12 sm:py-16; }
+.section-title { @apply text-2xl sm:text-3xl font-bold mb-6; }
+.card { @apply bg-white rounded-2xl shadow-soft p-6; }
+.btn { @apply inline-flex items-center justify-center rounded-xl px-4 py-2 font-medium; }
+.btn-primary { @apply btn bg-primary text-white hover:bg-primary-dark transition; }
+.btn-outline { @apply btn border border-gray-300 hover:bg-gray-50; }
+>>>>>>> bade6a07e1a1e79a40e9f6b0d6acf5d2f5e75b77
